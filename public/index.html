@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">ShopEasy</div>
+            <nav>
+              
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="cart.html" class="cart-link">Cart <span class="cart-count">0</span></a></li>
+                    <li id="auth-nav">
+                        <!-- 'll be populated by javas. -->
+                    </li>
+                    <li>
+                        <button id="theme-toggle" class="theme-toggle-btn">💡</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to ShopEasy</h1>
+                <p>Your one-stop shop for quality products</p>
+                <a href="product.html" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="products-grid" id="featured-products">
+                    <!-- Featured products 'll be loaded by javasc. -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+  <!----------------- Footer -->
+  <footer id="main-footer">
+    <div class="footer-container">
+      <div class="footer-row">
+        <!-- Brand -->
+        <div class="footer-col">
+          <h4>ShopEasy</h4>
+          <p>Your trusted destination for quality, style, and affordability.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><img src="https://placehold.co/32x32/1877f2/ffffff?text=f" alt="f"></a>
+            <a href="#" aria-label="Instagram"><img src="https://placehold.co/32x32/e4405f/ffffff?text=ig" alt="ig"></a>
+            <a href="#" aria-label="Twitter"><img src="https://placehold.co/32x32/1da1f2/ffffff?text=x" alt="x"></a>
+            <a href="#" aria-label="Pinterest"><img src="https://placehold.co/32x32/e60023/ffffff?text=p" alt="p"></a>
+          </div>
+        </div>
+
+        <!-------- quick-----liinks--- -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+
+        <!-- ---categories------->
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Home & Kitchen</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Stationery</a></li>
+            <li><a href="#">Gifts & Crafts</a></li>
+          </ul>
+        </div>
+
+        <!--------News letter0------>
+        <div class="footer-col">
+          <h4>Stay Updated</h4>
+          <p>Subscribe to get special offers and updates.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Shopeasy. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
